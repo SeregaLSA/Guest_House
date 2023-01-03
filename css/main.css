@@ -186,3 +186,25 @@ body {
     margin-top: 16px;
     color: #52503B;
 }
+.block-5_3 {
+    width: 1167px;
+    margin: 0 auto;
+}
+.block-5_3-1, .block-5_3-2,
+.block-5_3-3 {
+    width: 350px;
+    margin-top: 32px;
+}
+.block-5_3-1 {
+    float: left;
+}
+.block-5_3-2 {
+    float: left;
+    margin-left: 64px;
+}
+.block-5_3-3 {
+    float: right;
+}
+.block-5_img {
+    margin-left: 141px;
+}
