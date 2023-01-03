@@ -12,8 +12,11 @@ body {
 .wrapper {
     margin: 0 auto;
     max-width: 1440px;
+    overflow: hidden;
 }
-
+/*
+Начало первого блока
+*/
 .img-1 {
     background-image: url('../img/1-image.png');
     height: 800px;
@@ -82,4 +85,104 @@ body {
 }
 .menu__button:active {
     border: 1px solid black;
+}
+
+.big__logo {
+    margin-top: 178px;
+    margin-left: 592px;
+}
+.text__block-1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 34px;
+    margin-left: 133px;
+    display: inline-block;
+    text-align: center;
+}
+.text__block-1-1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 33px;
+    margin-left: 575px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+.img__block-1 {
+    margin-top: 94px;
+    margin-left: 690px;
+}
+
+/*
+завершение первого блока
+*/
+
+/*
+Начало второго блока
+*/
+.block-2 {
+    height: 410px;
+    margin: 0 auto;
+    background-color: #FAF8F0;
+    overflow: hidden;
+}
+.rectangle__block-2, .rectangle__block-3 {
+    margin-top: 100px;
+    margin-left: 699px;
+
+}
+.text__block-2 {
+    width: 800px;
+    margin: 0 auto;
+}
+.text__block-2-1 {
+    width: 360px;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.text__block-2-2 {
+    width: 360px;
+    float: right;
+    margin-left: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+
+.block-3 {
+    overflow: hidden;
+    /*height: 568px;*/
+    margin: 0 auto;
+}
+.text__block-3 {
+    color: #52503B;
+    font-size: 96px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 140px;
+}
+
+.block-5 {
+    overflow: hidden;
+    background-color: #FAF8F0;
+}
+.big__text__block-5 {
+    font-size: 32px;
+    font-weight: 400;    
+    text-align: center;
+    margin-top: 32px;
+    color: #52503B;
+}
+.smoll__text__block-5 {
+    font-size: 16px;
+    font-weight: 400;    
+    text-align: center;
+    margin-top: 16px;
+    color: #52503B;
 }
